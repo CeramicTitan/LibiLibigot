@@ -4,8 +4,6 @@ import libilibigot.LibiLibigot;
 import libilibigot.utilzbiznatch.Handler;
 
 import org.bukkit.server;
-import org.bukkit.plugin.Plugin;
-import org.bukkit.plugin.java.JavaPlugin;
 
 import awesome.t00thpick1.e;
 
@@ -23,7 +21,7 @@ public class T00thpick1Handler implements Handler {
         
     }
     
-    publiv void a() {
+    public void a() {
         if (b().c().a == f().f) {
             m();
         }
