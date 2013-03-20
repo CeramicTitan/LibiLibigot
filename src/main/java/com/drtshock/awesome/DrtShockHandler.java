@@ -2,7 +2,7 @@ package com.drtshock.awesome;
 
 import java.io.File;
 
-import awesome.t00thpick1.libilibigot.LibiLibigot;
+import libilibigot.LibiLibigot;
 
 public class DrtShockHandler {
 
