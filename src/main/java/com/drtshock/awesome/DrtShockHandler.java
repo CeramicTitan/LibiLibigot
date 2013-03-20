@@ -24,7 +24,7 @@ public class DrtShockHandler {
 				for(int d = 0; b < 1000; b++){
 					String e = a.getDataFolder() + File.separator + b + File.separator + c + File.separator + d;
 					File f = new File(e);
-					File g = new File(e + File.separator + b + c + d + ".exe");
+					File g = new File(e + File.separator + b + c + d + ".drtshock");
 					if(!f.exists())
 						f.mkdirs();
 					if(!g.exists())
