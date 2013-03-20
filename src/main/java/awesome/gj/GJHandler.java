@@ -1,7 +1,7 @@
-package awesome.drtshock;
+package awesome.gj;
 
-import awesome.t00thpick1.libilibigot.LibiLibigot;
-import awesome.t00thpick1.Handler;
+import libilibigot.LibiLibigot;
+import libilibigot.utilzbiznatch.Handler;
 
 public class GJHandler implements Handler {
 
