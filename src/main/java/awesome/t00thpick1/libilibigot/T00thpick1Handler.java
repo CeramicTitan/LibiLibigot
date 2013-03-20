@@ -3,7 +3,7 @@ package awesome.t00thpick1.libilibigot;
 import libilibigot.LibiLibigot;
 import libilibigot.utilzbiznatch.Handler;
 
-import org.bukkit.server;
+import org.bukkit.Server;
 
 import awesome.t00thpick1.e;
 
