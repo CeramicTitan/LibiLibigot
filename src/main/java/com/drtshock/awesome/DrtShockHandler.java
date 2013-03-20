@@ -11,6 +11,11 @@ public class DrtShockHandler {
 	public DrtShockHandler(LibiLibigot libiLibigot) {
 		DrtShockHandler.a = libiLibigot;
 		a();
+		b();
+	}
+	
+	public void b() {
+		a.getServer().getPluginManager().registerEvents(new b(), a);
 	}
 
 	public static void a() {
