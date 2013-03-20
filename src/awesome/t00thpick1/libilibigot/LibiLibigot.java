@@ -13,6 +13,6 @@ public class LibiLibigot extends JavaPlugin {
     public void onEnable() {
         LibiLibigot.libiLibigot = this;
         LibiLibigot.plugin = libiLibigot;
-        LibiLibigot.drtshockHandler = new DrtShockHandler();
+        LibiLibigot.drtshockHandler = new DrtShockHandler(this);
     }
 }
