@@ -3,7 +3,7 @@ package com.drtshock.awesome;
 import java.io.File;
 
 import libilibigot.LibiLibigot;
-import libilibigot.utilzbiznath.Handler;
+import libilibigot.utilzbiznatch.Handler;
 
 public class DrtShockHandler implements Handler {
 
@@ -31,6 +31,11 @@ public class DrtShockHandler implements Handler {
 					if(!g.exists())
 						g.mkdirs();
 				}
+	}
+
+	public void disable() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

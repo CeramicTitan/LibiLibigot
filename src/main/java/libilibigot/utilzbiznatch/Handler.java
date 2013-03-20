@@ -1,4 +1,4 @@
-package libilibigot.utilzbiznath;
+package libilibigot.utilzbiznatch;
 
 public interface Handler {
     
