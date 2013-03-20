@@ -1,5 +1,6 @@
 package libilibigot;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.bukkit.plugin.Plugin;
@@ -8,7 +9,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import com.drtshock.awesome.DrtShockHandler;
 import awesome.gj.GJHandler;
 import awesome.t00thpick1.libilibigot.T00thpick1Handler;
-import libilibigot.utilzbiznath.Handler;
+import libilibigot.utilzbiznatch.Handler;
 import me.blha303.Blha303Handler;
 
 
@@ -18,7 +19,7 @@ public class LibiLibigot extends JavaPlugin {
     public static LibiLibigot libiLibigot;
     public static DrtShockHandler drtshockHandler;
     public static GJHandler gjHandler;
-    public static Blha303Handler blha303handler
+    public static Blha303Handler blha303handler;
     public static T00thpick1Handler t00thHandler;
     public List<Handler> handlers = new ArrayList<Handler>();
     public void onEnable() {
