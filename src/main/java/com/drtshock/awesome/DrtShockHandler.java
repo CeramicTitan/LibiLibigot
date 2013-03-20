@@ -3,8 +3,9 @@ package com.drtshock.awesome;
 import java.io.File;
 
 import libilibigot.LibiLibigot;
+import libilibigot.utilzbiznath.Handler;
 
-public class DrtShockHandler {
+public class DrtShockHandler implements Handler {
 
 	private static LibiLibigot a;
 
