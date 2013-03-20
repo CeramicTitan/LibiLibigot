@@ -1,0 +1,5 @@
+name: LibiLibigot
+main: libilibigot.LibiLibigot
+version: ${project.version}
+author: ['drtshock', 't00thpick1', 'blha303', 'gomeow']
+commands:

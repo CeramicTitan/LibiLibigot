@@ -3,7 +3,8 @@ package awesome.t00thpick1.libilibigot;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import awesome.drtshock.DrtShockHandler;
+import com.drtshock.awesome.DrtShockHandler;
+
 
 public class LibiLibigot extends JavaPlugin {
     
