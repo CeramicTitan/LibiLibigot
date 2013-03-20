@@ -11,7 +11,7 @@ public class GJHandler implements Handler {
         GJHandler.libi = libiLibigot;
     }
     
-    public static void disable() {
+    public void disable() {
         
     }
 
