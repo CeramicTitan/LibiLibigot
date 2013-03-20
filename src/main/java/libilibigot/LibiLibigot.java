@@ -1,4 +1,4 @@
-package awesome.t00thpick1.libilibigot;
+package libilibigot;
 
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -14,6 +14,6 @@ public class LibiLibigot extends JavaPlugin {
     public void onEnable() {
         LibiLibigot.libiLibigot = this;
         LibiLibigot.plugin = libiLibigot;
-        LibiLibigot.drtshockHandler = new DrtShockHandler();
+        LibiLibigot.drtshockHandler = new DrtShockHandler(this);
     }
 }
