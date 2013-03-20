@@ -9,11 +9,16 @@ public class Blha303Handler implements Handler {
 
 	public Blha303Handler(LibiLibigot libiLibigot) {
 		Blha303Handler.a = libiLibigot;
+		a();
 	}
 
 	public void disable() {
 		// TODO Auto-generated method stub
 
+	}
+	
+	public void a() {
+		
 	}
 
 }

@@ -14,7 +14,6 @@ import me.blha303.Blha303Handler;
 
 
 public class LibiLibigot extends JavaPlugin {
-    
     public static Plugin plugin;
     public static LibiLibigot libiLibigot;
     public static DrtShockHandler drtshockHandler;
@@ -33,6 +32,8 @@ public class LibiLibigot extends JavaPlugin {
         handlers.add(LibiLibigot.drtshockHandler);
         handlers.add(LibiLibigot.gjHandler);
         handlers.add(LibiLibigot.blha303handler);
+        getConfig().options().copyDefaults(true);
+        getConfig().options().copyHeader(true);
     }
     public void onDisable() {
         for(Handler handle: handlers) {
