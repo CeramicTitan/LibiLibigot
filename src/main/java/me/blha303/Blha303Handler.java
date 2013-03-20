@@ -13,12 +13,12 @@ public class Blha303Handler implements Handler {
 	}
 
 	public void disable() {
-		// TODO Auto-generated method stub
-
+		a.getLogger().info("Stop... all the clocks...");
+		a.getLogger().info("FAATHEEEEERRRRRRRRRRRR!");
 	}
 	
 	public void a() {
-		
+		a.getLogger().info("blha303Handler loaded! Prepare for trouble, and make it double!");
 	}
 
 }
